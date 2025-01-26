@@ -1,0 +1,81 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="CSS/index.css">
+  <link rel="stylesheet" href="CSS/bootstrap.css">
+  <link rel="stylesheet" href="CSS/animate.css">
+  <script src="js/sweetalert.js"></script>
+  <script src="js/bootstrap.js"></script>
+  <title>HomePage</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light ">
+    <div class="container-fluid">
+      <a class="navbar-brand">Navbar</a>
+      <form class="d-flex">
+        <p>jus code</p>
+
+      </form>
+    </div>
+  </nav>
+
+  <!-- login  -->
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-md-6">
+        <ul class="nav nav-tabs">
+          <li class="nav-item">
+            <a class="nav-link " aria-current="page" href="#signup" data-bs-toggle="tab">Sign up</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link active" href="#login" data-bs-toggle="tab">Login</a>
+          </li>
+        </ul>
+
+        <div class="tab-content">
+          <div class="tab-pane  mt-3" id="signup">
+            <!-- sign up form -->
+            <form class="reg-form">
+              <input required name="yourName" type="text" placeholder="Your Name" class=" mb-3 form-control">
+              <input required name="HotelName" type="text" placeholder="Hotel Name" class=" mb-3 form-control">
+              <input required name="totalRoom" type="number" placeholder="no of room" class=" mb-3 form-control">
+              <input required name="mobile" type="text" placeholder="Mobile number" class=" mb-3 form-control">
+              <input required name="email" type="email" placeholder="Email" class=" mb-3 mb-3 form-control">
+              <input required name="password" type="password" placeholder="Password" class=" mb-3 mb-3 form-control">
+
+              <button type="submit" class="btn btn-primary w-100">Register</button>
+            </form>
+            <!-- login -->
+          </div>
+          <div class="tab-pane active mt-3" id="login">
+            <form class="login-form">
+
+              <input type="email" placeholder="Email" class=" mb-3 mb-3 form-control">
+              <input type="password" placeholder="Password" class=" mb-3 mb-3 form-control">
+
+              <button type="submit" class="btn btn-primary w-100">Login</button>
+            </form>
+
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6">
+        <img
+          src="https://static.vecteezy.com/system/resources/previews/003/689/228/original/online-registration-or-sign-up-login-for-account-on-smartphone-app-user-interface-with-secure-password-mobile-application-for-ui-web-banner-access-cartoon-people-illustration-vector.jpg"
+          class="img-fluid" alt="">
+      </div>
+    </div>
+  </div>
+
+
+
+
+
+  <script src="js/index.js"></script>
+</body>
+
+</html>
